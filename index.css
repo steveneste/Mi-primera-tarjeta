@@ -1,0 +1,100 @@
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.card img {
+    width: 100%;
+}
+p {
+    display: flex;
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+p:hover {
+    color: gold;
+    transition: all 1ms;
+}
+
+img:hover {
+    opacity: 0.9;
+}
+
+p {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+a {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+img {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
